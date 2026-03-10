@@ -26,6 +26,6 @@ public class StaminaWheelOverlay implements IGuiOverlay{
 		int x = Mth.clamp((int)Math.round(settings.staminaWheelX()*screenWidth), 1+WHEEL_RADIUS, screenWidth-2-WHEEL_RADIUS);
 		int y = Mth.clamp((int)Math.round(settings.staminaWheelY()*screenHeight), 1+WHEEL_RADIUS, screenHeight-2-WHEEL_RADIUS);
 
-		InGameStaminaWheelRenderer.get().renderStamina(guiGraphics, x, y, 25);
+		InGameStaminaWheelRenderer.get().renderStamina(guiGraphics, x, y, 95);
 	}
 }
